@@ -1,0 +1,216 @@
+.index__h1 {
+  color:#00cc99;
+  font-size: 20px;
+  font-weight: 400;
+}
+.offcanvas-endStyle {
+  top: 74.77px;
+  right: 0;
+  width: 540px;
+}
+.cartNumber {
+  font-size: 12px;
+  line-height: 14px;
+  background-color: #E31277;
+  top: -1px;
+  right: 5px;
+}
+@include media-breakpoint-up(lg) {
+  .position-lg-absolute{
+    position: absolute;
+  }
+
+  .translate-lg-middle{
+    transform: translate(-50%,-50%);
+  }
+}
+.menu {
+  a{
+    font-size: 16px;
+    line-height: 21px;
+    color: #707070;
+  }
+}
+// .list{
+//   margin-bottom: 20px;
+// }
+.title{
+  font-size: 32px;
+  line-height: 48px;
+  // @include media-breakpoint-down(md){
+  //   font-size: 20px;
+  //   line-height: 30px;
+  // }
+}
+.exhibinection-news-intro{
+  .title{
+    @include media-breakpoint-down(md){
+    margin-right: 10px;
+    }
+  }
+  .exhibinection-news-info{
+    padding: 40px 0;
+    @include media-breakpoint-down(md){
+      padding: 0;
+    }
+    p{
+      @include media-breakpoint-down(md){
+      font-size: 20px;
+      line-height: 30px;
+      }
+    }
+  }
+  .description{
+    margin-bottom: 34px;
+    @include media-breakpoint-down(md){
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+  }
+  // .fb-logo{
+  //   margin-right: 36px;
+  // }
+}
+.gotoaction{
+  a{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.banner{
+  background-image: url(../../assets/images/banner.jpg);
+  background-position: center center;
+  height: 480px;
+  .goto{
+    margin-bottom: 80px;
+  }
+}
+.subscription{
+  background-image: url(../../assets/images/bg.jpg);
+  background-size: cover;
+  background-position: center ;
+  height: 400px;
+}
+.nav-scroller {
+  height: 2.75rem;  /* 隱藏下方捲軸 */
+  overflow-y: hidden; 
+  border-bottom: 1px solid #707070;
+}
+.nav-scroller .nav {
+  flex-wrap: nowrap;
+  padding-bottom: 1rem; /* 隱藏下方捲軸 */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.show-category{
+  a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    &:hover{
+      border-bottom: 1px solid #E31277;
+    }
+  }
+}
+.show-list{
+  margin-bottom: 60px;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 24px;
+    }
+  h3{
+    font-size: 20px;
+  }
+  .showlist{
+    margin-bottom: 20px;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 16px;
+    }
+  }
+}
+.bg-color{
+  background-color: #EFEFEF;
+}
+
+.preview-bg{
+  background-image: url(../../assets/images/people2.png);
+  background-size: cover;
+  background-position: center;
+  height: 482px;
+}
+.preview{
+  padding: 40px 24px;
+  color: #fff;
+  background-color: #190014CC;
+  h2{
+    font-size: 28px;
+    line-height: 42px;
+  }
+}
+.article-photo{
+  img{
+    margin-bottom: 12px;
+    border-color: #707070;
+  }
+  h3{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .to-view{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.swiper-wrapper{
+  h3,p{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .recomender-photo{
+    width: 350px;
+    height: 350px;
+  }
+}
+.subscription-area{
+  margin-bottom: 36px;
+}
+.slogan{
+  h3{
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 12px;
+    @include media-breakpoint-down(md) {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+  input{
+    // padding: 12px 210px 12px 12px;
+    padding: 12px;
+  }
+  button{
+    padding: 12px 52px;
+  }
+}
+.copyright{
+  padding: 28px 0;
+  h2{
+    font-size: 24px;
+    line-height: 24px;
+    @include media-breakpoint-down(md) {
+    line-height: 23px;
+    font-size: 22px;
+    }
+  }
+  h3{
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.submenu{
+  a{
+    color: #707070;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
